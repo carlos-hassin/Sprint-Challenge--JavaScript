@@ -158,10 +158,10 @@ The zoos are concerned about animals with a lower population count. Using filter
 */
 var lowPopulationAnimals = [];
 
-lowPopulation = zooAnimals.filter( popSize => popSize.population < 5 );
+lowPopulationAnimals = zooAnimals.filter( popSize => popSize.population < 5 );
 lowCaseAnimalNames.push(lowPopulationAnimals);
 
-console.log(lowPopulation);
+console.log(lowPopulationAnimals);
 
 /* Request 4: .reduce() 
 
